@@ -33,10 +33,19 @@ Run this command to install Air package in your project:
 First create a app.env in your project, then enter your database credentials like below
 
 POSTGRES_HOST=(IP address => 127.0.0.1)/localhost
+
 POSTGRES_USER=username
+
 POSTGRES_PASSWORD=db_password
+
 POSTGRES_DB=db_name
+
 POSTGRES_PORT=6500
 
 PORT=8000
+
 CLIENT_ORIGIN=http://localhost:3000
+
+## Step 3 – Add .gitignore
+
+To avoid accidental pushing of the environment variables to GitHub, create a `.gitignore` file and add the following code.
